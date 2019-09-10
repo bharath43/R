@@ -39,13 +39,17 @@ getwd()
 
 # Read the csv files
 bank_train=  read.csv("bank-full_train.csv", header= T, stringsAsFactors = F)
+
 bank_test =    read.csv("bank-full_test.csv", header= T, stringsAsFactors = F)
 
 ld_bank=bank_train
+
 ld_bank_test=bank_test
-glimpse(bank_test)
+
+limpse(bank_test)
 
 # Function to create dummy variables
+
 CreateDummies=function(data,var,freq_cutoff=0){
   t=table(data[,var])
   t=t[t>freq_cutoff]
