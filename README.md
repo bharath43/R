@@ -14,3 +14,9 @@ Challenges that the manager faces are following:
 She has decided to use past data to automate this decision, instead of manually choosing through each and every customer. Previous campaign data which has been made available to her; contains customer characteristics , campaign characteristics, previous campaign information as well as whether customer ended up subscribing to the product as a result of that campaign or not. Using this she plans to develop a statistical model which given this information predicts whether customer in question will subscribe to the product or not. A successful model which is able to do this, will make her campaign efficiently targeted and less bothering to uninterested customers.
 
 We have given you two datasets , bank-full_train.csv and bank-full_test.csv . You need to use data bank-full_train to build predictive model for response variable “y”. bank-full_test data contains all other factors except “y”, you need to predict that using the model that you developed and submit your predicted values in a csv files.
+
+I have applied both linear and logistic regression model.
+
+When I compared both the models logistic regression model scored higher AUC value than linear regression.
+
+The AUC score i achieved by applying logistic regression model is 90.
