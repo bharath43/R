@@ -24,6 +24,10 @@ Evaluation Criterion: KS score on test data. larger KS, better Model
 
 We have given you two datasets , bank-full_train.csv and bank-full_test.csv . You need to use data bank-full_train to build predictive model for response variable “y”. bank-full_test data contains all other factors except “y”, you need to predict that using the model that you developed and submit your predicted values in a csv files.
 
+bank-full_train.csv has 6818 rows and 12 columns.
+
+bank-full_test.csv has 1705 rows and 11 columns.
+
 # Data dictionary
 
 Variables : Definition: Type and their categories
