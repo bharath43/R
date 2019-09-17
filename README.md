@@ -76,15 +76,15 @@ We will build a Logistic regression model to predict the response variable â€œyâ
 
 Step 1: Imputing NA values in the datasets.
 
-Step 2:Data Preparation: Grouping similar category variables and making dummies.
+Step 2: Data Preparation: Grouping similar category variables and making dummies.
 
 Step 3: Model Building( LOGISTIC REGRESSION )
 
-Step 4.Finding Cutoff value and Perfomance measurements of the model.(Sensitivity, Specificity, Accuracy)
+Step 4: Finding Cutoff value and Perfomance measurements of the model.(Sensitivity, Specificity, Accuracy)
 
-Step 5.Predict the final output on test dataset.(whether the client subscribe or no to term deposit)
+Step 5: Predict the final output on test dataset.(whether the client subscribe or no to term deposit)
 
-Step 6:Creating confusion matrix and finding how good our model is. (by predicting on test_25 dataset)
+Step 6: Creating confusion matrix and finding how good our model is. (by predicting on test_25 dataset)
 
 # Conclusion
 Thus the target number of customers to be focused upon for term deposits by the bank are predicted successfully using logistic regression model with an accuracy of 84.15% using KS method.The KS score examined came out to be: 0.72/1.00.Therfore my model and predictions are very good.
